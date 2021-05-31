@@ -1,0 +1,66 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../img/section-one/Group 6.png");
+  width: 100%;
+  height: 768px;
+}
+.hero__box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 218px;
+}
+.hero__text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* h1 */
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 115px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.hero .hero__block-img {
+  margin-top: 25px;
+}
+.hero__title {
+  margin-top: 25px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 25px */
+  text-align: center;
+  color: #FFFFFF;
+}
+.hero__svg-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  margin-top: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
